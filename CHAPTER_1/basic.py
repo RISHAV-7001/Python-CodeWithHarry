@@ -1,0 +1,7 @@
+a = int(input("enter first input :- "))
+b = int(input("enter second input :- "))
+print("sum of first and second input is ", a+b)
+print("difference of first and second input is ", a-b)
+print("product of first and second input is ", a*b)
+print("divison of first by second input is ", a//b)
+print("divison of first by second input with decimal is ", a/b)
