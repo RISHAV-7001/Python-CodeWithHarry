@@ -1,14 +1,14 @@
-Name = (input("Enter your name : ")).title()
+Name = (input("Enter your name : "))
 print(type(Name))
 
 age = int(input("Enter your age : "))
 
-if(age>18):
+if age>18 :
     print(f"Congratulation {Name}, \n\tyou can drive")
-elif(age==18):
+elif age==18 :
     print(f"congratulation {Name}, \n\tfor turning 18  \n\tplease apply for driving license ASAP")
 else:
-    print(f"Sorry {Name}, \n\tyou cannot drive \n\twait for till you turned to 18")
+    print(f"Sorry mera bacha {Name}, \n\tyou cannot drive \n\twait for till you turned to 18")
 
 
 """
