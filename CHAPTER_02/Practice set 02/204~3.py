@@ -9,3 +9,13 @@ while num > 0:
     num = num // 10        # remove last digit
 
 print("Reversed number:", rev)
+
+"""
+num = int(input("Enter a number: "))
+mtlb:
+User se input liya (as string)
+int() use karke usse number (integer) banaya
+👉 Example: "123" → 123
+
+
+"""
